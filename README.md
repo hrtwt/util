@@ -1,8 +1,11 @@
 # util
 使いまわせそうなスクリプト
 
+## init_ubuntu.sh
+`curl -fsSL https://raw.githubusercontent.com/hrtwt/util/master/init_ubuntu.sh | sudo bash -`
+
 ## multi_ssh.sh
-複数マシンにssh接続を行い，キー入力の同期により，複数マシンへの一括操作を支援するスクリプト．
+複数マシンにssh接続を行い，キー入力の同期により，複数マシンへの一括操作を支援  
 Tmux synchronize-panes を利用
 
 ### 使い方
